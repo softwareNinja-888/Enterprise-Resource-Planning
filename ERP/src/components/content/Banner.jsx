@@ -14,8 +14,8 @@ export function Banner(){
         visible: {
           opacity: 1,
           transition: {
-            delayChildren: 0.3,   
-            staggerChildren: 0.5, 
+            delayChildren: 0.8,   
+            staggerChildren: 0.4, 
           },
         },
 		

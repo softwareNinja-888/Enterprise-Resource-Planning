@@ -61,13 +61,13 @@ export function Menu({menuOpen, setMenuOpen }){
         <img src={ close } onClick={() => setMenuOpen(false)} className="absolute top-10 right-10 text-2xl w-5" />
 
         {/* Links */}
-        <nav className="flex flex-col space-y-4 text-lg text-fontColor font-poppins items-center">
-          <div onClick={()=>{handleNavigation("/pages/blog")}} className="dark:text-white hover:underline">Blogs</div>
-          <div onClick={()=>{handleNavigation("/pages/events")}}className="dark:text-white hover:underline">Events</div>
-          <div onClick={()=>{handleNavigation("/pages/donate")}} className="dark:text-white hover:underline">Donate</div>
-          <div onClick={()=>{handleNavigation("/aboutus")}} className="dark:text-white hover:underline">About Us</div>
-          <div onClick={()=>{handleNavigation("/pages/churches")}} className="dark:text-white hover:underline">Churches</div>
-          <div onClick={()=>{handleNavigation("/signup")}} className='dark:text-white'>Login/SignUp</div>
+        <nav className="flex flex-col space-y-4 text-lg text-black font-poppins items-center">
+          <div onClick={()=>{handleNavigation("/pages/blog")}} className=" hover:underline">Blogs</div>
+          <div onClick={()=>{handleNavigation("/pages/events")}}className=" hover:underline">Events</div>
+          <div onClick={()=>{handleNavigation("/pages/donate")}} className=" hover:underline">Donate</div>
+          <div onClick={()=>{handleNavigation("/aboutus")}} className=" hover:underline">About Us</div>
+          <div onClick={()=>{handleNavigation("/pages/churches")}} className=" hover:underline">Churches</div>
+          <div onClick={()=>{handleNavigation("/signup")}} className=''>Login/SignUp</div>
 {/*            {IsLoggedIn ? <div onClick={()=>{handleNavigation(`profile/${ActiveUser}`)}}>Profile</div>:
                           <>
                             <div onClick={()=>{handleNavigation("/signup")}}>Login/SignUp</div>
