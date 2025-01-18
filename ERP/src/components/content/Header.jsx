@@ -8,9 +8,9 @@ export function Header(){
 
     return (
         <>
-            <div className="navbar">
-                <div className="navbar-start">
-                    <a className="btn btn-ghost text-xl">AIG</a>
+            <div className="navbar justify-between px-4">
+                <div className="navbar-start border-4 border-secondary w-32 flex justify-center">
+                    <a className="btn btn-ghost text-xl font-poppins text-secondary">EPS</a>
                 </div>
                
                 <div className="navbar-end">

@@ -42,7 +42,7 @@ export function Menu({menuOpen, setMenuOpen }){
     <>
       {/* Background Overlay */}
       <motion.div
-        className="fixed inset-0 bg-white dark:bg-theme bg-opacity-100 z-40"
+        className="fixed inset-0 bg-white bg-opacity-100 z-40"
         initial={{ opacity: 0 }}
         animate={{ opacity: menuOpen ? 1 : 0 }}
         transition={{ duration: 0.5 }}
@@ -52,7 +52,7 @@ export function Menu({menuOpen, setMenuOpen }){
 
       {/* Animated Menu */}
       <motion.div
-        className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-primary"
+        className="fixed inset-0 z-50 flex flex-col items-center justify-center"
         initial="closed"
         animate={menuOpen ? "open" : "closed"}
         variants={menuVariants}

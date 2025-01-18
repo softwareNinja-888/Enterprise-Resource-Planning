@@ -16,6 +16,10 @@ export default {
         inter: ['inter','sans-serif'],
         roboto: ['roboto','sans-serif'],
       },
+      colors:{
+        main: "#ff2400",
+        secondary:"#0073cf",
+      }
     },
   },
   plugins: [
