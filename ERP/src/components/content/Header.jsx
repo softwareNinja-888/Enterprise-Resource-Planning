@@ -1,6 +1,9 @@
 import { Menu } from "../ui/Menu";
 import React, { useState } from "react";
 
+import { Logo } from '../ui/Logo';
+
+
 
 export function Header(){
 
@@ -9,9 +12,7 @@ export function Header(){
     return (
         <>
             <div className="navbar justify-between px-4">
-                <div className="navbar-start border-4 border-secondary w-32 flex justify-center">
-                    <a className="btn btn-ghost text-xl font-poppins text-secondary">EPS</a>
-                </div>
+               <Logo/>
                
                 <div className="navbar-end">
                     <svg
